@@ -262,9 +262,9 @@ def hero(theme):
 
   <!-- text -->
   <text x="56" y="104" font-family="{MONO}" font-size="15" fill="{t['faint']}">~/yukine <tspan fill="{t['accent_a']}">$</tspan> whoami</text>
-  <text x="54" y="178" font-family="{SANS}" font-size="58" font-weight="800" fill="{t['text']}" letter-spacing="-1">Hi, I'm Yuki</text>
-  <text x="56" y="222" font-family="{SANS}" font-size="28" font-weight="700" fill="{t['accent_a']}">a.k.a. Yukine</text>
-  <text x="56" y="270" font-family="{SANS}" font-size="19" font-weight="600" fill="{t['text']}">Final-year Computer Engineering Student</text>
+  <text x="54" y="178" font-family="{SANS}" font-size="58" font-weight="600" fill="{t['text']}" letter-spacing="-0.5">Hi, I'm Yuki</text>
+  <text x="56" y="222" font-family="{SANS}" font-size="28" font-weight="500" fill="{t['accent_a']}">a.k.a. Yukine</text>
+  <text x="56" y="270" font-family="{SANS}" font-size="19" font-weight="500" fill="{t['text']}">Final-year Computer Engineering Student</text>
   <text x="56" y="300" font-family="{SANS}" font-size="18" fill="{t['muted']}">AI &amp; Computer Vision Enthusiast</text>
   {''.join(pill_svg)}
   <text x="56" y="420" font-family="{MONO}" font-size="15" fill="{t['accent_a']}">&gt;</text>{typing('currently building ArangCada', 74, 420, 15, t['muted'], 0.6, 2.6, 8, 'type', t['accent_b'])}
@@ -312,7 +312,7 @@ def footer(theme):
   <g>
     <animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="3.2s" repeatCount="indefinite"/>{dotted('kitty', body, ox, oy, cell, 'url(#catgrad)')}
   </g>{''.join(twinkle)}
-  <text x="{tx}" y="100" font-family="{SANS}" font-size="30" font-weight="800" fill="{t['text']}">Thanks for stopping by!</text>
+  <text x="{tx}" y="100" font-family="{SANS}" font-size="30" font-weight="600" fill="{t['text']}">Thanks for stopping by!</text>
   <text x="{tx}" y="134" font-family="{SANS}" font-size="17" fill="{t['muted']}">Teaching machines to see, one frame at a time.</text>
   <text x="{tx}" y="166" font-family="{MONO}" font-size="14" fill="{t['accent_a']}">— yuki</text>
 </svg>
