@@ -1,0 +1,301 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="220" viewBox="0 0 920 220" role="img" aria-labelledby="title">
+  <title id="title">Thanks for stopping by!</title>
+  <defs>
+    <linearGradient id="catgrad" x1="64" y1="22.0" x2="264" y2="198.0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffb3d1"/>
+      <stop offset="1" stop-color="#b69cff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff8fc0"/>
+      <stop offset="1" stop-color="#9d7dff"/>
+    </linearGradient>
+    <pattern id="bgdots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="11" cy="11" r="1" fill="#21262d"/>
+    </pattern>
+    <clipPath id="card"><rect width="920" height="220" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="920" height="220" fill="#0d1117"/>
+    <rect width="920" height="220" fill="url(#bgdots)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="919" height="219" rx="18" fill="none" stroke="#30363d"/>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="3.2s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="kitty-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="kitty-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#kitty-dots)" d="M136 22h8v4h-8zM136 26h8v4h-8zM136 30h8v4h-8zM132 34h16v4h-16zM132 38h16v4h-16zM204 38h8v4h-8zM128 42h20v4h-20zM204 42h8v4h-8zM128 46h20v4h-20zM200 46h12v4h-12zM124 50h24v4h-24zM196 50h16v4h-16zM124 54h28v4h-28zM192 54h20v4h-20zM124 58h28v4h-28zM188 58h24v4h-24zM124 62h28v4h-28zM184 62h28v4h-28zM120 66h32v4h-32zM184 66h24v4h-24zM120 70h28v4h-28zM180 70h28v4h-28zM120 74h28v4h-28zM176 74h32v4h-32zM116 78h32v4h-32zM176 78h32v4h-32zM116 82h36v4h-36zM172 82h36v4h-36zM112 86h96v4h-96zM108 90h100v4h-100zM104 94h100v4h-100zM104 98h100v4h-100zM104 102h16v4h-16zM132 102h72v4h-72zM100 106h12v4h-12zM132 106h72v4h-72zM100 110h12v4h-12zM128 110h4v4h-4zM136 110h64v4h-64zM100 114h8v4h-8zM128 114h4v4h-4zM136 114h28v4h-28zM180 114h24v4h-24zM100 118h12v4h-12zM124 118h8v4h-8zM136 118h24v4h-24zM168 118h4v4h-4zM184 118h20v4h-20zM100 122h12v4h-12zM124 122h8v4h-8zM136 122h24v4h-24zM164 122h8v4h-8zM188 122h16v4h-16zM100 126h16v4h-16zM136 126h20v4h-20zM164 126h4v4h-4zM188 126h16v4h-16zM104 130h20v4h-20zM128 130h28v4h-28zM164 130h4v4h-4zM188 130h16v4h-16zM108 134h52v4h-52zM164 134h4v4h-4zM184 134h20v4h-20zM104 138h4v4h-4zM112 138h52v4h-52zM184 138h16v4h-16zM116 142h80v4h-80zM120 146h76v4h-76zM132 150h56v4h-56zM140 154h44v4h-44z"/>
+    </mask>
+  </defs>
+  <rect x="100" y="22" width="112" height="136" fill="url(#catgrad)" mask="url(#kitty-mask)"/>
+  </g>
+  <g opacity="0.25">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="0.0s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="sp0-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="sp0-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#sp0-dots)" d="M84 134h12v4h-12zM80 138h8v4h-8z"/>
+    </mask>
+  </defs>
+  <rect x="80" y="134" width="16" height="8" fill="url(#catgrad)" mask="url(#sp0-mask)"/>
+  </g>
+  <g opacity="0.25">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="0.37s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="sp1-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="sp1-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#sp1-dots)" d="M80 122h16v4h-16z"/>
+    </mask>
+  </defs>
+  <rect x="80" y="122" width="16" height="4" fill="url(#catgrad)" mask="url(#sp1-mask)"/>
+  </g>
+  <g opacity="0.25">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="0.74s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="sp2-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="sp2-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#sp2-dots)" d="M200 154h8v4h-8zM208 158h8v4h-8z"/>
+    </mask>
+  </defs>
+  <rect x="200" y="154" width="16" height="8" fill="url(#catgrad)" mask="url(#sp2-mask)"/>
+  </g>
+  <g opacity="0.25">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="1.11s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="sp3-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="sp3-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#sp3-dots)" d="M108 30h12v4h-12z"/>
+    </mask>
+  </defs>
+  <rect x="108" y="30" width="12" height="4" fill="url(#catgrad)" mask="url(#sp3-mask)"/>
+  </g>
+  <g opacity="0.25">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="1.48s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="sp4-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="sp4-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#sp4-dots)" d="M72 182h4v4h-4zM72 186h4v4h-4z"/>
+    </mask>
+  </defs>
+  <rect x="72" y="182" width="4" height="8" fill="url(#catgrad)" mask="url(#sp4-mask)"/>
+  </g>
+  <g opacity="0.25">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="1.85s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="sp5-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="sp5-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#sp5-dots)" d="M80 182h8v4h-8z"/>
+    </mask>
+  </defs>
+  <rect x="80" y="182" width="8" height="4" fill="url(#catgrad)" mask="url(#sp5-mask)"/>
+  </g>
+  <g opacity="0.25">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="2.22s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="sp6-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="sp6-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#sp6-dots)" d="M208 166h4v4h-4zM212 170h4v4h-4z"/>
+    </mask>
+  </defs>
+  <rect x="208" y="166" width="8" height="8" fill="url(#catgrad)" mask="url(#sp6-mask)"/>
+  </g>
+  <g opacity="0.25">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="2.59s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="sp7-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="sp7-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#sp7-dots)" d="M212 134h4v4h-4zM212 138h4v4h-4z"/>
+    </mask>
+  </defs>
+  <rect x="212" y="134" width="4" height="8" fill="url(#catgrad)" mask="url(#sp7-mask)"/>
+  </g>
+  <g opacity="0.25">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="2.96s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="sp8-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="sp8-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#sp8-dots)" d="M64 182h4v4h-4z"/>
+    </mask>
+  </defs>
+  <rect x="64" y="182" width="4" height="4" fill="url(#catgrad)" mask="url(#sp8-mask)"/>
+  </g>
+  <g opacity="0.25">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="0.33s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="sp9-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="sp9-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#sp9-dots)" d="M68 166h4v4h-4z"/>
+    </mask>
+  </defs>
+  <rect x="68" y="166" width="4" height="4" fill="url(#catgrad)" mask="url(#sp9-mask)"/>
+  </g>
+  <g opacity="0.25">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="0.7s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="sp10-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="sp10-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#sp10-dots)" d="M68 174h4v4h-4z"/>
+    </mask>
+  </defs>
+  <rect x="68" y="174" width="4" height="4" fill="url(#catgrad)" mask="url(#sp10-mask)"/>
+  </g>
+  <g opacity="0.25">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="1.07s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="sp11-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="sp11-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#sp11-dots)" d="M76 174h4v4h-4z"/>
+    </mask>
+  </defs>
+  <rect x="76" y="174" width="4" height="4" fill="url(#catgrad)" mask="url(#sp11-mask)"/>
+  </g>
+  <g opacity="0.25">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="1.44s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="sp12-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="sp12-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#sp12-dots)" d="M84 42h4v4h-4z"/>
+    </mask>
+  </defs>
+  <rect x="84" y="42" width="4" height="4" fill="url(#catgrad)" mask="url(#sp12-mask)"/>
+  </g>
+  <g opacity="0.25">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="1.81s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="sp13-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="sp13-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#sp13-dots)" d="M100 34h4v4h-4z"/>
+    </mask>
+  </defs>
+  <rect x="100" y="34" width="4" height="4" fill="url(#catgrad)" mask="url(#sp13-mask)"/>
+  </g>
+  <g opacity="0.25">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="2.18s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="sp14-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="sp14-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#sp14-dots)" d="M100 42h4v4h-4z"/>
+    </mask>
+  </defs>
+  <rect x="100" y="42" width="4" height="4" fill="url(#catgrad)" mask="url(#sp14-mask)"/>
+  </g>
+  <g opacity="0.25">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="2.55s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="sp15-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="sp15-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#sp15-dots)" d="M108 158h4v4h-4z"/>
+    </mask>
+  </defs>
+  <rect x="108" y="158" width="4" height="4" fill="url(#catgrad)" mask="url(#sp15-mask)"/>
+  </g>
+  <g opacity="0.25">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="2.92s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="sp16-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="sp16-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#sp16-dots)" d="M220 142h4v4h-4z"/>
+    </mask>
+  </defs>
+  <rect x="220" y="142" width="4" height="4" fill="url(#catgrad)" mask="url(#sp16-mask)"/>
+  </g>
+  <g opacity="0.25">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="0.29s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="sp17-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="sp17-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#sp17-dots)" d="M224 106h4v4h-4z"/>
+    </mask>
+  </defs>
+  <rect x="224" y="106" width="4" height="4" fill="url(#catgrad)" mask="url(#sp17-mask)"/>
+  </g>
+  <g opacity="0.25">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="0.66s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="sp18-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="sp18-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#sp18-dots)" d="M224 134h4v4h-4z"/>
+    </mask>
+  </defs>
+  <rect x="224" y="134" width="4" height="4" fill="url(#catgrad)" mask="url(#sp18-mask)"/>
+  </g>
+  <g opacity="0.25">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="1.03s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="sp19-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="sp19-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#sp19-dots)" d="M228 90h4v4h-4z"/>
+    </mask>
+  </defs>
+  <rect x="228" y="90" width="4" height="4" fill="url(#catgrad)" mask="url(#sp19-mask)"/>
+  </g>
+  <g opacity="0.25">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="1.4s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="sp20-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="sp20-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#sp20-dots)" d="M232 110h4v4h-4z"/>
+    </mask>
+  </defs>
+  <rect x="232" y="110" width="4" height="4" fill="url(#catgrad)" mask="url(#sp20-mask)"/>
+  </g>
+  <g opacity="0.25">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="1.77s" repeatCount="indefinite"/>
+  <defs>
+    <pattern id="sp21-dots" x="64" y="22" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="sp21-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#sp21-dots)" d="M240 98h4v4h-4z"/>
+    </mask>
+  </defs>
+  <rect x="240" y="98" width="4" height="4" fill="url(#catgrad)" mask="url(#sp21-mask)"/>
+  </g>
+  <text x="304" y="100" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#e6edf3">Thanks for stopping by!</text>
+  <text x="304" y="134" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#8b949e">Teaching machines to see, one frame at a time.</text>
+  <text x="304" y="166" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="url(#accent)">— yuki</text>
+</svg>

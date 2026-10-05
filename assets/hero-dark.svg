@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="480" viewBox="0 0 920 480" role="img" aria-labelledby="title desc">
+  <title id="title">Hi, I'm Yuki / Yukine</title>
+  <desc id="desc">Final-year Computer Engineering student, AI and computer vision enthusiast. A dotted cat on the right watches the text.</desc>
+  <defs>
+    <linearGradient id="catgrad" x1="592" y1="56" x2="880" y2="456" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffb3d1"/>
+      <stop offset="1" stop-color="#b69cff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff8fc0"/>
+      <stop offset="1" stop-color="#9d7dff"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0.72" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="fademask" maskUnits="userSpaceOnUse"><rect width="920" height="480" fill="url(#fade)"/></mask>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5eead4" stop-opacity="0"/>
+      <stop offset="1" stop-color="#5eead4" stop-opacity="0.28"/>
+    </linearGradient>
+    <pattern id="bgdots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="11" cy="11" r="1" fill="#21262d"/>
+    </pattern>
+    <clipPath id="card"><rect width="920" height="480" rx="18"/></clipPath>
+    <clipPath id="boxclip"><rect x="586" y="54" width="298" height="264"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="920" height="480" fill="#0d1117"/>
+    <rect width="920" height="480" fill="url(#bgdots)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="919" height="479" rx="18" fill="none" stroke="#30363d"/>
+
+  <!-- the cat, mirrored so it faces the text -->
+  <g mask="url(#fademask)">
+  <defs>
+    <pattern id="cat-dots" x="592" y="56" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="cat-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#cat-dots)" d="M788 60h12v4h-12zM672 64h16v4h-16zM780 64h24v4h-24zM668 68h24v4h-24zM780 68h24v4h-24zM664 72h28v4h-28zM776 72h32v4h-32zM664 76h32v4h-32zM776 76h32v4h-32zM660 80h36v4h-36zM772 80h40v4h-40zM660 84h40v4h-40zM772 84h40v4h-40zM656 88h44v4h-44zM772 88h44v4h-44zM656 92h48v4h-48zM768 92h48v4h-48zM656 96h52v4h-52zM768 96h52v4h-52zM652 100h52v4h-52zM764 100h56v4h-56zM652 104h56v4h-56zM764 104h60v4h-60zM652 108h56v4h-56zM764 108h60v4h-60zM648 112h60v4h-60zM760 112h64v4h-64zM648 116h60v4h-60zM760 116h68v4h-68zM648 120h64v4h-64zM756 120h72v4h-72zM644 124h68v4h-68zM756 124h72v4h-72zM644 128h72v4h-72zM756 128h76v4h-76zM644 132h72v4h-72zM756 132h76v4h-76zM644 136h72v4h-72zM752 136h80v4h-80zM644 140h72v4h-72zM752 140h80v4h-80zM640 144h76v4h-76zM752 144h84v4h-84zM640 148h80v4h-80zM748 148h88v4h-88zM640 152h80v4h-80zM748 152h88v4h-88zM640 156h84v4h-84zM748 156h88v4h-88zM640 160h200v4h-200zM640 164h200v4h-200zM640 168h200v4h-200zM640 172h200v4h-200zM640 176h200v4h-200zM640 180h204v4h-204zM640 184h204v4h-204zM640 188h204v4h-204zM640 192h204v4h-204zM640 196h128v4h-128zM780 196h64v4h-64zM640 200h36v4h-36zM696 200h68v4h-68zM788 200h56v4h-56zM640 204h32v4h-32zM700 204h56v4h-56zM796 204h44v4h-44zM640 208h28v4h-28zM704 208h52v4h-52zM800 208h40v4h-40zM640 212h24v4h-24zM708 212h44v4h-44zM800 212h40v4h-40zM640 216h24v4h-24zM708 216h44v4h-44zM804 216h36v4h-36zM640 220h24v4h-24zM708 220h40v4h-40zM804 220h36v4h-36zM640 224h24v4h-24zM712 224h36v4h-36zM808 224h32v4h-32zM640 228h24v4h-24zM712 228h36v4h-36zM808 228h32v4h-32zM640 232h24v4h-24zM712 232h36v4h-36zM808 232h32v4h-32zM636 236h28v4h-28zM712 236h36v4h-36zM804 236h36v4h-36zM636 240h28v4h-28zM712 240h36v4h-36zM804 240h36v4h-36zM636 244h32v4h-32zM708 244h44v4h-44zM804 244h36v4h-36zM636 248h56v4h-56zM708 248h44v4h-44zM760 248h80v4h-80zM636 252h60v4h-60zM704 252h20v4h-20zM732 252h108v4h-108zM640 256h84v4h-84zM728 256h112v4h-112zM600 260h240v4h-240zM600 264h268v4h-268zM604 268h4v4h-4zM628 268h244v4h-244zM640 272h196v4h-196zM852 272h20v4h-20zM644 276h188v4h-188zM612 280h228v4h-228zM600 284h256v4h-256zM596 288h20v4h-20zM648 288h176v4h-176zM832 288h44v4h-44zM596 292h12v4h-12zM652 292h172v4h-172zM844 292h28v4h-28zM644 296h184v4h-184zM856 296h8v4h-8zM628 300h180v4h-180zM816 300h24v4h-24zM620 304h24v4h-24zM668 304h136v4h-136zM820 304h24v4h-24zM612 308h24v4h-24zM672 308h124v4h-124zM832 308h20v4h-20zM612 312h12v4h-12zM684 312h104v4h-104zM836 312h20v4h-20zM692 316h96v4h-96zM844 316h12v4h-12zM692 320h100v4h-100zM852 320h4v4h-4zM692 324h100v4h-100zM692 328h100v4h-100zM692 332h104v4h-104zM692 336h104v4h-104zM692 340h104v4h-104zM692 344h108v4h-108zM692 348h108v4h-108zM692 352h112v4h-112zM688 356h116v4h-116zM688 360h120v4h-120zM688 364h120v4h-120zM688 368h120v4h-120zM688 372h124v4h-124zM684 376h128v4h-128zM684 380h132v4h-132zM684 384h132v4h-132zM684 388h136v4h-136zM680 392h140v4h-140zM680 396h144v4h-144zM680 400h144v4h-144zM676 404h152v4h-152zM676 408h152v4h-152zM676 412h156v4h-156zM676 416h156v4h-156zM672 420h164v4h-164zM672 424h164v4h-164zM672 428h164v4h-164zM668 432h172v4h-172zM668 436h172v4h-172zM668 440h176v4h-176zM668 444h176v4h-176zM668 448h176v4h-176zM668 452h180v4h-180z"/>
+    </mask>
+  </defs>
+  <rect x="596" y="60" width="280" height="396" fill="url(#catgrad)" mask="url(#cat-mask)"/>
+  <g>
+    <animateTransform attributeName="transform" type="translate" dur="9s" repeatCount="indefinite"
+      values="-4 0;-4 0;16 0;16 0;0 0;-4 0;-4 0" keyTimes="0;0.38;0.44;0.6;0.66;0.74;1"/>
+    <g transform="translate(766 232)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" dur="4.5s" repeatCount="indefinite"
+          values="1 1;1 1;1 0.1;1 1;1 1" keyTimes="0;0.9;0.93;0.96;1"/>
+        <g transform="translate(-766 -232)">
+  <defs>
+    <pattern id="pupil0-dots" x="592" y="56" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="pupil0-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#pupil0-dots)" d="M760 220h12v4h-12zM756 224h20v4h-20zM756 228h20v4h-20zM756 232h20v4h-20zM760 236h12v4h-12zM760 240h12v4h-12z"/>
+    </mask>
+  </defs>
+  <rect x="756" y="220" width="20" height="24" fill="url(#catgrad)" mask="url(#pupil0-mask)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" dur="9s" repeatCount="indefinite"
+      values="-4 0;-4 0;16 0;16 0;0 0;-4 0;-4 0" keyTimes="0;0.38;0.44;0.6;0.66;0.74;1"/>
+    <g transform="translate(692 234)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" dur="4.5s" repeatCount="indefinite"
+          values="1 1;1 1;1 0.1;1 1;1 1" keyTimes="0;0.9;0.93;0.96;1"/>
+        <g transform="translate(-692 -234)">
+  <defs>
+    <pattern id="pupil1-dots" x="592" y="56" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    </pattern>
+    <mask id="pupil1-mask" maskUnits="userSpaceOnUse">
+      <path fill="url(#pupil1-dots)" d="M688 220h12v4h-12zM684 224h16v4h-16zM684 228h16v4h-16zM684 232h16v4h-16zM684 236h16v4h-16zM688 240h8v4h-8zM692 244h4v4h-4z"/>
+    </mask>
+  </defs>
+  <rect x="684" y="220" width="16" height="28" fill="url(#catgrad)" mask="url(#pupil1-mask)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  </g>
+
+  <!-- detection box -->
+  <g clip-path="url(#boxclip)">
+    <rect x="586" y="-6" width="298" height="60" fill="url(#scan)">
+      <animate attributeName="y" values="-6;318;318" keyTimes="0;0.55;1" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="586" y="54" width="298" height="264" fill="none" stroke="#5eead4" stroke-width="1" stroke-dasharray="4 6" opacity="0.55"/>
+  <path d="M586 72V54H604M866 54H884V72M884 300V318H866M604 318H586V300" fill="none" stroke="#5eead4" stroke-width="2.5" stroke-linecap="round"/>
+  <g>
+    <animate attributeName="opacity" values="0;1;1;1" keyTimes="0;0.08;0.9;1" dur="5s" repeatCount="indefinite"/>
+    <rect x="586" y="30" width="78.4" height="22" rx="4" fill="#5eead4"/>
+    <text x="594" y="46" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="700" fill="#04201c">cat 0.98</text>
+  </g>
+
+  <!-- text -->
+  <text x="56" y="104" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#6e7681">~/yukine <tspan fill="#ff8fc0">$</tspan> whoami</text>
+  <text x="54" y="178" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="800" fill="#e6edf3" letter-spacing="-1">Hi, I'm Yuki</text>
+  <text x="56" y="222" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="url(#accent)">a.k.a. Yukine</text>
+  <text x="56" y="270" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="600" fill="#e6edf3">Final-year Computer Engineering Student</text>
+  <text x="56" y="300" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#8b949e">AI &amp; Computer Vision Enthusiast</text>
+  <rect x="56" y="332" width="76.4" height="30" rx="15" fill="#1c2230" stroke="#30363d"/><text x="94.2" y="352" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#c9d1d9">Python</text><rect x="142.4" y="332" width="76.4" height="30" rx="15" fill="#1c2230" stroke="#30363d"/><text x="180.6" y="352" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#c9d1d9">OpenCV</text><rect x="228.8" y="332" width="84.8" height="30" rx="15" fill="#1c2230" stroke="#30363d"/><text x="271.2" y="352" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#c9d1d9">PyTorch</text><rect x="323.6" y="332" width="110" height="30" rx="15" fill="#1c2230" stroke="#30363d"/><text x="378.6" y="352" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#c9d1d9">TensorFlow</text>
+  <text x="56" y="420" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#ff8fc0">&gt;</text>
+  <defs>
+    <clipPath id="type-clip">
+      <rect x="74" y="405" height="22.5" width="0">
+        <animate attributeName="width" values="0;9;18;27;36;45;54;63;72;81;90;99;108;117;126;135;144;153;162;171;180;189;198;207;216;225;234;243;252;252;0" keyTimes="0.0;0.0116;0.0232;0.0348;0.0464;0.058;0.0696;0.0813;0.0929;0.1045;0.1161;0.1277;0.1393;0.1509;0.1625;0.1741;0.1857;0.1973;0.2089;0.2205;0.2321;0.2437;0.2554;0.267;0.2786;0.2902;0.3018;0.3134;0.325;0.92;1" dur="8s" begin="0.6s" repeatCount="indefinite" calcMode="discrete"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#type-clip)">
+    <text x="74" y="420" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#8b949e" textLength="252" lengthAdjust="spacingAndGlyphs" xml:space="preserve">currently building ArangCada</text>
+  </g>
+  <rect x="74" y="407.7" width="8.25" height="15.75" fill="#9d7dff" rx="1">
+    <animate attributeName="x" values="74;83;92;101;110;119;128;137;146;155;164;173;182;191;200;209;218;227;236;245;254;263;272;281;290;299;308;317;326;326;74" keyTimes="0.0;0.0116;0.0232;0.0348;0.0464;0.058;0.0696;0.0813;0.0929;0.1045;0.1161;0.1277;0.1393;0.1509;0.1625;0.1741;0.1857;0.1973;0.2089;0.2205;0.2321;0.2437;0.2554;0.267;0.2786;0.2902;0.3018;0.3134;0.325;0.92;1" dur="8s" begin="0.6s" repeatCount="indefinite" calcMode="discrete"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
