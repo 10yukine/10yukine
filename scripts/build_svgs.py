@@ -24,13 +24,13 @@ THEMES = {
     "dark": dict(
         card="#0d1117", card2="#161b22", border="#30363d", grid="#21262d",
         text="#e6edf3", muted="#8b949e", faint="#6e7681",
-        cat_a="#ffb3d1", cat_b="#b69cff", accent_a="#ff8fc0", accent_b="#9d7dff",
+        cat_a="#a5e8ff", cat_b="#2563eb", accent_a="#7dd3fc", accent_b="#3b82f6",
         box="#5eead4", box_text="#04201c", pill="#1c2230", pill_text="#c9d1d9",
     ),
     "light": dict(
         card="#ffffff", card2="#f6f8fa", border="#d0d7de", grid="#eaeef2",
         text="#1f2328", muted="#59636e", faint="#818b98",
-        cat_a="#f06aa6", cat_b="#7c5cff", accent_a="#e0458f", accent_b="#6d4aff",
+        cat_a="#38bdf8", cat_b="#1e3a8a", accent_a="#0ea5e9", accent_b="#1d4ed8",
         box="#0d9488", box_text="#ffffff", pill="#f0f2f5", pill_text="#31363d",
     ),
 }
