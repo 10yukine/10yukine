@@ -30,7 +30,7 @@ THEMES = {
     "light": dict(
         card="#ffffff", card2="#f6f8fa", border="#d0d7de", grid="#eaeef2",
         text="#1f2328", muted="#59636e", faint="#818b98",
-        cat_a="#38bdf8", cat_b="#1e3a8a", accent_a="#0ea5e9", accent_b="#1d4ed8",
+        cat_a="#38bdf8", cat_b="#1e3a8a", accent_a="#0284c7", accent_b="#1d4ed8",
         box="#0d9488", box_text="#ffffff", pill="#f0f2f5", pill_text="#31363d",
     ),
 }
@@ -220,10 +220,6 @@ def hero(theme):
       <stop offset="0" stop-color="{t['cat_a']}"/>
       <stop offset="1" stop-color="{t['cat_b']}"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="{t['accent_a']}"/>
-      <stop offset="1" stop-color="{t['accent_b']}"/>
-    </linearGradient>
     <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0.72" stop-color="#fff"/>
       <stop offset="1" stop-color="#fff" stop-opacity="0"/>
@@ -267,7 +263,7 @@ def hero(theme):
   <!-- text -->
   <text x="56" y="104" font-family="{MONO}" font-size="15" fill="{t['faint']}">~/yukine <tspan fill="{t['accent_a']}">$</tspan> whoami</text>
   <text x="54" y="178" font-family="{SANS}" font-size="58" font-weight="800" fill="{t['text']}" letter-spacing="-1">Hi, I'm Yuki</text>
-  <text x="56" y="222" font-family="{SANS}" font-size="28" font-weight="700" fill="url(#accent)">a.k.a. Yukine</text>
+  <text x="56" y="222" font-family="{SANS}" font-size="28" font-weight="700" fill="{t['accent_a']}">a.k.a. Yukine</text>
   <text x="56" y="270" font-family="{SANS}" font-size="19" font-weight="600" fill="{t['text']}">Final-year Computer Engineering Student</text>
   <text x="56" y="300" font-family="{SANS}" font-size="18" fill="{t['muted']}">AI &amp; Computer Vision Enthusiast</text>
   {''.join(pill_svg)}
@@ -303,10 +299,6 @@ def footer(theme):
       <stop offset="0" stop-color="{t['cat_a']}"/>
       <stop offset="1" stop-color="{t['cat_b']}"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="{t['accent_a']}"/>
-      <stop offset="1" stop-color="{t['accent_b']}"/>
-    </linearGradient>
     <pattern id="bgdots" width="22" height="22" patternUnits="userSpaceOnUse">
       <circle cx="11" cy="11" r="1" fill="{t['grid']}"/>
     </pattern>
@@ -322,7 +314,7 @@ def footer(theme):
   </g>{''.join(twinkle)}
   <text x="{tx}" y="100" font-family="{SANS}" font-size="30" font-weight="800" fill="{t['text']}">Thanks for stopping by!</text>
   <text x="{tx}" y="134" font-family="{SANS}" font-size="17" fill="{t['muted']}">Teaching machines to see, one frame at a time.</text>
-  <text x="{tx}" y="166" font-family="{MONO}" font-size="14" fill="url(#accent)">— yuki</text>
+  <text x="{tx}" y="166" font-family="{MONO}" font-size="14" fill="{t['accent_a']}">— yuki</text>
 </svg>
 """
 

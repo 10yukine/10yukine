@@ -5,10 +5,6 @@
       <stop offset="0" stop-color="#38bdf8"/>
       <stop offset="1" stop-color="#1e3a8a"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0ea5e9"/>
-      <stop offset="1" stop-color="#1d4ed8"/>
-    </linearGradient>
     <pattern id="bgdots" width="22" height="22" patternUnits="userSpaceOnUse">
       <circle cx="11" cy="11" r="1" fill="#eaeef2"/>
     </pattern>
@@ -297,5 +293,5 @@
   </g>
   <text x="304" y="100" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#1f2328">Thanks for stopping by!</text>
   <text x="304" y="134" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#59636e">Teaching machines to see, one frame at a time.</text>
-  <text x="304" y="166" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="url(#accent)">— yuki</text>
+  <text x="304" y="166" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#0284c7">— yuki</text>
 </svg>
