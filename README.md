@@ -29,6 +29,7 @@ class Yukine:
   <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
   <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
   <img alt="Claude Code" src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white">
+  <img alt="Model Context Protocol" src="https://img.shields.io/badge/MCP-1A1A1A?style=for-the-badge&logo=modelcontextprotocol&logoColor=white">
 </p>
 
 **Built with on [ArangCada](https://github.com/10yukine/ArangCada)**
@@ -55,6 +56,7 @@ class Yukine:
       <ul>
         <li>OpenCV · PyTorch · TensorFlow</li>
         <li>Claude Academy: Claude Code 101 (Anthropic, 2026)</li>
+        <li>Claude Academy: Introduction to Model Context Protocol (Anthropic, 2026)</li>
         <li>Microsoft Artificial Intelligence &amp; Cybersecurity courses</li>
       </ul>
     </td>
