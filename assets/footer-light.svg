@@ -291,7 +291,7 @@
   </defs>
   <rect x="240" y="98" width="4" height="4" fill="url(#catgrad)" mask="url(#sp21-mask)"/>
   </g>
-  <text x="304" y="100" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#1f2328">Thanks for stopping by!</text>
+  <text x="304" y="100" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" fill="#1f2328">Thanks for stopping by!</text>
   <text x="304" y="134" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#59636e">Teaching machines to see, one frame at a time.</text>
   <text x="304" y="166" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#0284c7">— yuki</text>
 </svg>
