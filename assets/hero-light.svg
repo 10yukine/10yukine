@@ -1,78 +1,78 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="480" viewBox="0 0 920 480" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="340" viewBox="0 0 920 340" role="img" aria-labelledby="title desc">
   <title id="title">Hi, I'm Yuki / Yukine</title>
   <desc id="desc">Final-year Computer Engineering student working on AI and computer vision. A dotted cat on the right watches the text.</desc>
   <defs>
-    <linearGradient id="catgrad" x1="592" y1="56" x2="880" y2="456" gradientUnits="userSpaceOnUse">
+    <linearGradient id="catgrad" x1="628.0" y1="48" x2="880.0" y2="398.0" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#38bdf8"/>
       <stop offset="1" stop-color="#1e3a8a"/>
     </linearGradient>
     <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0.72" stop-color="#fff"/>
+      <stop offset="0.8" stop-color="#fff"/>
       <stop offset="1" stop-color="#fff" stop-opacity="0"/>
     </linearGradient>
-    <mask id="fademask" maskUnits="userSpaceOnUse"><rect width="920" height="480" fill="url(#fade)"/></mask>
+    <mask id="fademask" maskUnits="userSpaceOnUse"><rect width="920" height="340" fill="url(#fade)"/></mask>
     <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#0d9488" stop-opacity="0"/>
       <stop offset="1" stop-color="#0d9488" stop-opacity="0.28"/>
     </linearGradient>
-    <clipPath id="card"><rect width="920" height="480" rx="18"/></clipPath>
-    <clipPath id="boxclip"><rect x="586" y="54" width="298" height="264"/></clipPath>
+    <clipPath id="card"><rect width="920" height="340" rx="18"/></clipPath>
+    <clipPath id="boxclip"><rect x="622.0" y="46" width="262.0" height="231.0"/></clipPath>
   </defs>
 
   <g clip-path="url(#card)">
-    <rect width="920" height="480" fill="#ffffff"/>
+    <rect width="920" height="340" fill="#ffffff"/>
   </g>
-  <rect x="0.5" y="0.5" width="919" height="479" rx="18" fill="none" stroke="#d0d7de"/>
+  <rect x="0.5" y="0.5" width="919" height="339" rx="18" fill="none" stroke="#d0d7de"/>
 
   <!-- the cat, mirrored so it faces the text -->
   <g mask="url(#fademask)">
   <defs>
-    <pattern id="cat-dots" x="592" y="56" width="4" height="4" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    <pattern id="cat-dots" x="628" y="48" width="3.5" height="3.5" patternUnits="userSpaceOnUse">
+      <circle cx="1.75" cy="1.75" r="1.26" fill="#fff"/>
     </pattern>
     <mask id="cat-mask" maskUnits="userSpaceOnUse">
-      <path fill="url(#cat-dots)" d="M788 60h12v4h-12zM672 64h16v4h-16zM780 64h24v4h-24zM668 68h24v4h-24zM780 68h24v4h-24zM664 72h28v4h-28zM776 72h32v4h-32zM664 76h32v4h-32zM776 76h32v4h-32zM660 80h36v4h-36zM772 80h40v4h-40zM660 84h40v4h-40zM772 84h40v4h-40zM656 88h44v4h-44zM772 88h44v4h-44zM656 92h48v4h-48zM768 92h48v4h-48zM656 96h52v4h-52zM768 96h52v4h-52zM652 100h52v4h-52zM764 100h56v4h-56zM652 104h56v4h-56zM764 104h60v4h-60zM652 108h56v4h-56zM764 108h60v4h-60zM648 112h60v4h-60zM760 112h64v4h-64zM648 116h60v4h-60zM760 116h68v4h-68zM648 120h64v4h-64zM756 120h72v4h-72zM644 124h68v4h-68zM756 124h72v4h-72zM644 128h72v4h-72zM756 128h76v4h-76zM644 132h72v4h-72zM756 132h76v4h-76zM644 136h72v4h-72zM752 136h80v4h-80zM644 140h72v4h-72zM752 140h80v4h-80zM640 144h76v4h-76zM752 144h84v4h-84zM640 148h80v4h-80zM748 148h88v4h-88zM640 152h80v4h-80zM748 152h88v4h-88zM640 156h84v4h-84zM748 156h88v4h-88zM640 160h200v4h-200zM640 164h200v4h-200zM640 168h200v4h-200zM640 172h200v4h-200zM640 176h200v4h-200zM640 180h204v4h-204zM640 184h204v4h-204zM640 188h204v4h-204zM640 192h204v4h-204zM640 196h128v4h-128zM780 196h64v4h-64zM640 200h36v4h-36zM696 200h68v4h-68zM788 200h56v4h-56zM640 204h32v4h-32zM700 204h56v4h-56zM796 204h44v4h-44zM640 208h28v4h-28zM704 208h52v4h-52zM800 208h40v4h-40zM640 212h24v4h-24zM708 212h44v4h-44zM800 212h40v4h-40zM640 216h24v4h-24zM708 216h44v4h-44zM804 216h36v4h-36zM640 220h24v4h-24zM708 220h40v4h-40zM804 220h36v4h-36zM640 224h24v4h-24zM712 224h36v4h-36zM808 224h32v4h-32zM640 228h24v4h-24zM712 228h36v4h-36zM808 228h32v4h-32zM640 232h24v4h-24zM712 232h36v4h-36zM808 232h32v4h-32zM636 236h28v4h-28zM712 236h36v4h-36zM804 236h36v4h-36zM636 240h28v4h-28zM712 240h36v4h-36zM804 240h36v4h-36zM636 244h32v4h-32zM708 244h44v4h-44zM804 244h36v4h-36zM636 248h56v4h-56zM708 248h44v4h-44zM760 248h80v4h-80zM636 252h60v4h-60zM704 252h20v4h-20zM732 252h108v4h-108zM640 256h84v4h-84zM728 256h112v4h-112zM600 260h240v4h-240zM600 264h268v4h-268zM604 268h4v4h-4zM628 268h244v4h-244zM640 272h196v4h-196zM852 272h20v4h-20zM644 276h188v4h-188zM612 280h228v4h-228zM600 284h256v4h-256zM596 288h20v4h-20zM648 288h176v4h-176zM832 288h44v4h-44zM596 292h12v4h-12zM652 292h172v4h-172zM844 292h28v4h-28zM644 296h184v4h-184zM856 296h8v4h-8zM628 300h180v4h-180zM816 300h24v4h-24zM620 304h24v4h-24zM668 304h136v4h-136zM820 304h24v4h-24zM612 308h24v4h-24zM672 308h124v4h-124zM832 308h20v4h-20zM612 312h12v4h-12zM684 312h104v4h-104zM836 312h20v4h-20zM692 316h96v4h-96zM844 316h12v4h-12zM692 320h100v4h-100zM852 320h4v4h-4zM692 324h100v4h-100zM692 328h100v4h-100zM692 332h104v4h-104zM692 336h104v4h-104zM692 340h104v4h-104zM692 344h108v4h-108zM692 348h108v4h-108zM692 352h112v4h-112zM688 356h116v4h-116zM688 360h120v4h-120zM688 364h120v4h-120zM688 368h120v4h-120zM688 372h124v4h-124zM684 376h128v4h-128zM684 380h132v4h-132zM684 384h132v4h-132zM684 388h136v4h-136zM680 392h140v4h-140zM680 396h144v4h-144zM680 400h144v4h-144zM676 404h152v4h-152zM676 408h152v4h-152zM676 412h156v4h-156zM676 416h156v4h-156zM672 420h164v4h-164zM672 424h164v4h-164zM672 428h164v4h-164zM668 432h172v4h-172zM668 436h172v4h-172zM668 440h176v4h-176zM668 444h176v4h-176zM668 448h176v4h-176zM668 452h180v4h-180z"/>
+      <path fill="url(#cat-dots)" d="M799.5 51.5h10.5v3.5h-10.5zM698 55h14v3.5h-14zM792.5 55h21v3.5h-21zM694.5 58.5h21v3.5h-21zM792.5 58.5h21v3.5h-21zM691 62h24.5v3.5h-24.5zM789 62h28v3.5h-28zM691 65.5h28v3.5h-28zM789 65.5h28v3.5h-28zM687.5 69h31.5v3.5h-31.5zM785.5 69h35v3.5h-35zM687.5 72.5h35v3.5h-35zM785.5 72.5h35v3.5h-35zM684 76h38.5v3.5h-38.5zM785.5 76h38.5v3.5h-38.5zM684 79.5h42v3.5h-42zM782 79.5h42v3.5h-42zM684 83h45.5v3.5h-45.5zM782 83h45.5v3.5h-45.5zM680.5 86.5h45.5v3.5h-45.5zM778.5 86.5h49v3.5h-49zM680.5 90h49v3.5h-49zM778.5 90h52.5v3.5h-52.5zM680.5 93.5h49v3.5h-49zM778.5 93.5h52.5v3.5h-52.5zM677 97h52.5v3.5h-52.5zM775 97h56v3.5h-56zM677 100.5h52.5v3.5h-52.5zM775 100.5h59.5v3.5h-59.5zM677 104h56v3.5h-56zM771.5 104h63v3.5h-63zM673.5 107.5h59.5v3.5h-59.5zM771.5 107.5h63v3.5h-63zM673.5 111h63v3.5h-63zM771.5 111h66.5v3.5h-66.5zM673.5 114.5h63v3.5h-63zM771.5 114.5h66.5v3.5h-66.5zM673.5 118h63v3.5h-63zM768 118h70v3.5h-70zM673.5 121.5h63v3.5h-63zM768 121.5h70v3.5h-70zM670 125h66.5v3.5h-66.5zM768 125h73.5v3.5h-73.5zM670 128.5h70v3.5h-70zM764.5 128.5h77v3.5h-77zM670 132h70v3.5h-70zM764.5 132h77v3.5h-77zM670 135.5h73.5v3.5h-73.5zM764.5 135.5h77v3.5h-77zM670 139h175v3.5h-175zM670 142.5h175v3.5h-175zM670 146h175v3.5h-175zM670 149.5h175v3.5h-175zM670 153h175v3.5h-175zM670 156.5h178.5v3.5h-178.5zM670 160h178.5v3.5h-178.5zM670 163.5h178.5v3.5h-178.5zM670 167h178.5v3.5h-178.5zM670 170.5h112v3.5h-112zM792.5 170.5h56v3.5h-56zM670 174h31.5v3.5h-31.5zM719 174h59.5v3.5h-59.5zM799.5 174h49v3.5h-49zM670 177.5h28v3.5h-28zM722.5 177.5h49v3.5h-49zM806.5 177.5h38.5v3.5h-38.5zM670 181h24.5v3.5h-24.5zM726 181h45.5v3.5h-45.5zM810 181h35v3.5h-35zM670 184.5h21v3.5h-21zM729.5 184.5h38.5v3.5h-38.5zM810 184.5h35v3.5h-35zM670 188h21v3.5h-21zM729.5 188h38.5v3.5h-38.5zM813.5 188h31.5v3.5h-31.5zM670 191.5h21v3.5h-21zM729.5 191.5h35v3.5h-35zM813.5 191.5h31.5v3.5h-31.5zM670 195h21v3.5h-21zM733 195h31.5v3.5h-31.5zM817 195h28v3.5h-28zM670 198.5h21v3.5h-21zM733 198.5h31.5v3.5h-31.5zM817 198.5h28v3.5h-28zM670 202h21v3.5h-21zM733 202h31.5v3.5h-31.5zM817 202h28v3.5h-28zM666.5 205.5h24.5v3.5h-24.5zM733 205.5h31.5v3.5h-31.5zM813.5 205.5h31.5v3.5h-31.5zM666.5 209h24.5v3.5h-24.5zM733 209h31.5v3.5h-31.5zM813.5 209h31.5v3.5h-31.5zM666.5 212.5h28v3.5h-28zM729.5 212.5h38.5v3.5h-38.5zM813.5 212.5h31.5v3.5h-31.5zM666.5 216h49v3.5h-49zM729.5 216h38.5v3.5h-38.5zM775 216h70v3.5h-70zM666.5 219.5h52.5v3.5h-52.5zM726 219.5h17.5v3.5h-17.5zM750.5 219.5h94.5v3.5h-94.5zM670 223h73.5v3.5h-73.5zM747 223h98v3.5h-98zM635 226.5h210v3.5h-210zM635 230h234.5v3.5h-234.5zM638.5 233.5h3.5v3.5h-3.5zM659.5 233.5h213.5v3.5h-213.5zM670 237h171.5v3.5h-171.5zM855.5 237h17.5v3.5h-17.5zM673.5 240.5h164.5v3.5h-164.5zM645.5 244h199.5v3.5h-199.5zM635 247.5h224v3.5h-224zM631.5 251h17.5v3.5h-17.5zM677 251h154v3.5h-154zM838 251h38.5v3.5h-38.5zM631.5 254.5h10.5v3.5h-10.5zM680.5 254.5h150.5v3.5h-150.5zM848.5 254.5h24.5v3.5h-24.5zM673.5 258h161v3.5h-161zM859 258h7v3.5h-7zM659.5 261.5h157.5v3.5h-157.5zM824 261.5h21v3.5h-21zM652.5 265h21v3.5h-21zM694.5 265h119v3.5h-119zM827.5 265h21v3.5h-21zM645.5 268.5h21v3.5h-21zM698 268.5h108.5v3.5h-108.5zM838 268.5h17.5v3.5h-17.5zM645.5 272h10.5v3.5h-10.5zM708.5 272h91v3.5h-91zM841.5 272h17.5v3.5h-17.5zM715.5 275.5h84v3.5h-84zM848.5 275.5h10.5v3.5h-10.5zM715.5 279h87.5v3.5h-87.5zM855.5 279h3.5v3.5h-3.5zM715.5 282.5h87.5v3.5h-87.5zM715.5 286h87.5v3.5h-87.5zM715.5 289.5h91v3.5h-91zM715.5 293h91v3.5h-91zM715.5 296.5h91v3.5h-91zM715.5 300h94.5v3.5h-94.5zM715.5 303.5h94.5v3.5h-94.5zM715.5 307h98v3.5h-98zM712 310.5h101.5v3.5h-101.5zM712 314h105v3.5h-105zM712 317.5h105v3.5h-105zM712 321h105v3.5h-105zM712 324.5h108.5v3.5h-108.5zM708.5 328h112v3.5h-112zM708.5 331.5h115.5v3.5h-115.5zM708.5 335h115.5v3.5h-115.5zM708.5 338.5h119v3.5h-119zM705 342h122.5v3.5h-122.5zM705 345.5h126v3.5h-126zM705 349h126v3.5h-126zM701.5 352.5h133v3.5h-133zM701.5 356h133v3.5h-133zM701.5 359.5h136.5v3.5h-136.5zM701.5 363h136.5v3.5h-136.5zM698 366.5h143.5v3.5h-143.5zM698 370h143.5v3.5h-143.5zM698 373.5h143.5v3.5h-143.5zM694.5 377h150.5v3.5h-150.5zM694.5 380.5h150.5v3.5h-150.5zM694.5 384h154v3.5h-154zM694.5 387.5h154v3.5h-154zM694.5 391h154v3.5h-154zM694.5 394.5h157.5v3.5h-157.5z"/>
     </mask>
   </defs>
-  <rect x="596" y="60" width="280" height="396" fill="url(#catgrad)" mask="url(#cat-mask)"/>
+  <rect x="631.5" y="51.5" width="245" height="346.5" fill="url(#catgrad)" mask="url(#cat-mask)"/>
   <g>
     <animateTransform attributeName="transform" type="translate" dur="9s" repeatCount="indefinite"
-      values="-4 0;-4 0;16 0;16 0;0 0;-4 0;-4 0" keyTimes="0;0.38;0.44;0.6;0.66;0.74;1"/>
-    <g transform="translate(766 232)">
+      values="-3.5 0;-3.5 0;14.0 0;14.0 0;0 0;-3.5 0;-3.5 0" keyTimes="0;0.38;0.44;0.6;0.66;0.74;1"/>
+    <g transform="translate(780.25 202)">
       <g>
         <animateTransform attributeName="transform" type="scale" dur="4.5s" repeatCount="indefinite"
           values="1 1;1 1;1 0.1;1 1;1 1" keyTimes="0;0.9;0.93;0.96;1"/>
-        <g transform="translate(-766 -232)">
+        <g transform="translate(-780.25 -202)">
   <defs>
-    <pattern id="pupil0-dots" x="592" y="56" width="4" height="4" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    <pattern id="pupil0-dots" x="628" y="48" width="3.5" height="3.5" patternUnits="userSpaceOnUse">
+      <circle cx="1.75" cy="1.75" r="1.26" fill="#fff"/>
     </pattern>
     <mask id="pupil0-mask" maskUnits="userSpaceOnUse">
-      <path fill="url(#pupil0-dots)" d="M760 220h12v4h-12zM756 224h20v4h-20zM756 228h20v4h-20zM756 232h20v4h-20zM760 236h12v4h-12zM760 240h12v4h-12z"/>
+      <path fill="url(#pupil0-dots)" d="M775 191.5h10.5v3.5h-10.5zM771.5 195h17.5v3.5h-17.5zM771.5 198.5h17.5v3.5h-17.5zM771.5 202h17.5v3.5h-17.5zM775 205.5h10.5v3.5h-10.5zM775 209h10.5v3.5h-10.5z"/>
     </mask>
   </defs>
-  <rect x="756" y="220" width="20" height="24" fill="url(#catgrad)" mask="url(#pupil0-mask)"/>
+  <rect x="771.5" y="191.5" width="17.5" height="21" fill="url(#catgrad)" mask="url(#pupil0-mask)"/>
         </g>
       </g>
     </g>
   </g>
   <g>
     <animateTransform attributeName="transform" type="translate" dur="9s" repeatCount="indefinite"
-      values="-4 0;-4 0;16 0;16 0;0 0;-4 0;-4 0" keyTimes="0;0.38;0.44;0.6;0.66;0.74;1"/>
-    <g transform="translate(692 234)">
+      values="-3.5 0;-3.5 0;14.0 0;14.0 0;0 0;-3.5 0;-3.5 0" keyTimes="0;0.38;0.44;0.6;0.66;0.74;1"/>
+    <g transform="translate(715.5 203.75)">
       <g>
         <animateTransform attributeName="transform" type="scale" dur="4.5s" repeatCount="indefinite"
           values="1 1;1 1;1 0.1;1 1;1 1" keyTimes="0;0.9;0.93;0.96;1"/>
-        <g transform="translate(-692 -234)">
+        <g transform="translate(-715.5 -203.75)">
   <defs>
-    <pattern id="pupil1-dots" x="592" y="56" width="4" height="4" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.44" fill="#fff"/>
+    <pattern id="pupil1-dots" x="628" y="48" width="3.5" height="3.5" patternUnits="userSpaceOnUse">
+      <circle cx="1.75" cy="1.75" r="1.26" fill="#fff"/>
     </pattern>
     <mask id="pupil1-mask" maskUnits="userSpaceOnUse">
-      <path fill="url(#pupil1-dots)" d="M688 220h12v4h-12zM684 224h16v4h-16zM684 228h16v4h-16zM684 232h16v4h-16zM684 236h16v4h-16zM688 240h8v4h-8zM692 244h4v4h-4z"/>
+      <path fill="url(#pupil1-dots)" d="M712 191.5h10.5v3.5h-10.5zM708.5 195h14v3.5h-14zM708.5 198.5h14v3.5h-14zM708.5 202h14v3.5h-14zM708.5 205.5h14v3.5h-14zM712 209h7v3.5h-7zM715.5 212.5h3.5v3.5h-3.5z"/>
     </mask>
   </defs>
-  <rect x="684" y="220" width="16" height="28" fill="url(#catgrad)" mask="url(#pupil1-mask)"/>
+  <rect x="708.5" y="191.5" width="14" height="24.5" fill="url(#catgrad)" mask="url(#pupil1-mask)"/>
         </g>
       </g>
     </g>
@@ -81,35 +81,35 @@
 
   <!-- detection box -->
   <g clip-path="url(#boxclip)">
-    <rect x="586" y="-6" width="298" height="60" fill="url(#scan)">
-      <animate attributeName="y" values="-6;318;318" keyTimes="0;0.55;1" dur="5s" repeatCount="indefinite"/>
+    <rect x="622.0" y="-14" width="262.0" height="60" fill="url(#scan)">
+      <animate attributeName="y" values="-14;277.0;277.0" keyTimes="0;0.55;1" dur="5s" repeatCount="indefinite"/>
     </rect>
   </g>
-  <rect x="586" y="54" width="298" height="264" fill="none" stroke="#0d9488" stroke-width="1" stroke-dasharray="4 6" opacity="0.55"/>
-  <path d="M586 72V54H604M866 54H884V72M884 300V318H866M604 318H586V300" fill="none" stroke="#0d9488" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="622.0" y="46" width="262.0" height="231.0" fill="none" stroke="#0d9488" stroke-width="1" stroke-dasharray="4 6" opacity="0.55"/>
+  <path d="M622.0 64V46H640.0M866.0 46H884.0V64M884.0 259.0V277.0H866.0M640.0 277.0H622.0V259.0" fill="none" stroke="#0d9488" stroke-width="2.5" stroke-linecap="round"/>
   <g>
     <animate attributeName="opacity" values="0;1;1;1" keyTimes="0;0.08;0.9;1" dur="5s" repeatCount="indefinite"/>
-    <rect x="586" y="30" width="78.4" height="22" rx="4" fill="#0d9488"/>
-    <text x="594" y="46" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="700" fill="#ffffff">cat 0.98</text>
+    <rect x="622.0" y="22" width="78.4" height="22" rx="4" fill="#0d9488"/>
+    <text x="630.0" y="38" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="700" fill="#ffffff">cat 0.98</text>
   </g>
 
   <!-- text -->
-  <text x="54" y="190" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="600" fill="#1f2328" letter-spacing="-0.5">Hi, I'm Yuki</text>
-  <text x="56" y="234" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="500" fill="#0284c7">a.k.a. Yukine</text>
-  <text x="56" y="290" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="500" fill="#1f2328">Final-year Computer Engineering student</text>
-  <text x="56" y="320" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#59636e">AI and computer vision</text>
-  <text x="56" y="380" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#0284c7">&gt;</text>
+  <text x="54" y="140" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="600" fill="#1f2328" letter-spacing="-0.5">Hi, I'm Yuki</text>
+  <text x="56" y="182" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="500" fill="#0284c7">a.k.a. Yukine</text>
+  <text x="56" y="232" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="500" fill="#1f2328">Final-year Computer Engineering student</text>
+  <text x="56" y="260" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#59636e">AI and computer vision</text>
+  <text x="56" y="304" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#0284c7">&gt;</text>
   <defs>
     <clipPath id="type-clip">
-      <rect x="74" y="365" height="22.5" width="0">
+      <rect x="74" y="289" height="22.5" width="0">
         <animate attributeName="width" values="0;9;18;27;36;45;54;63;72;81;90;99;108;117;126;135;144;153;162;162;0" keyTimes="0.0;0.0181;0.0361;0.0542;0.0722;0.0903;0.1083;0.1264;0.1444;0.1625;0.1806;0.1986;0.2167;0.2347;0.2528;0.2708;0.2889;0.3069;0.325;0.92;1" dur="8s" begin="0.6s" repeatCount="indefinite" calcMode="discrete"/>
       </rect>
     </clipPath>
   </defs>
   <g clip-path="url(#type-clip)">
-    <text x="74" y="380" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#59636e" textLength="162" lengthAdjust="spacingAndGlyphs" xml:space="preserve">building ArangCada</text>
+    <text x="74" y="304" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#59636e" textLength="162" lengthAdjust="spacingAndGlyphs" xml:space="preserve">building ArangCada</text>
   </g>
-  <rect x="74" y="367.7" width="8.25" height="15.75" fill="#1d4ed8" rx="1">
+  <rect x="74" y="291.7" width="8.25" height="15.75" fill="#1d4ed8" rx="1">
     <animate attributeName="x" values="74;83;92;101;110;119;128;137;146;155;164;173;182;191;200;209;218;227;236;236;74" keyTimes="0.0;0.0181;0.0361;0.0542;0.0722;0.0903;0.1083;0.1264;0.1444;0.1625;0.1806;0.1986;0.2167;0.2347;0.2528;0.2708;0.2889;0.3069;0.325;0.92;1" dur="8s" begin="0.6s" repeatCount="indefinite" calcMode="discrete"/>
     <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
   </rect>

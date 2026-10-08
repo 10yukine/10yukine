@@ -154,8 +154,8 @@ def typing(text, x, y, size, color, begin, dur, total, uid, cursor_color):
 
 def hero(theme):
     t = THEMES[theme]
-    W, H = 920, 480
-    cell = 4
+    W, H = 920, 340
+    cell = 3.5
 
     px, gw, gh = decode("big-cat.txt", flip=True)
     # pupils sit inside the eye sockets; mirrored coordinates (72 px wide)
@@ -164,7 +164,7 @@ def hero(theme):
     body = px - set().union(*pupils)
 
     ox = W - 40 - gw * cell
-    oy = 56
+    oy = 48
     left = min(safe_shift(p, body, -1) for p in pupils)
     right = max(safe_shift(p, body, +1) for p in pupils)
 
@@ -211,7 +211,7 @@ def hero(theme):
       <stop offset="1" stop-color="{t['cat_b']}"/>
     </linearGradient>
     <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0.72" stop-color="#fff"/>
+      <stop offset="0.8" stop-color="#fff"/>
       <stop offset="1" stop-color="#fff" stop-opacity="0"/>
     </linearGradient>
     <mask id="fademask" maskUnits="userSpaceOnUse"><rect width="{W}" height="{H}" fill="url(#fade)"/></mask>
@@ -247,11 +247,11 @@ def hero(theme):
   </g>
 
   <!-- text -->
-  <text x="54" y="190" font-family="{SANS}" font-size="58" font-weight="600" fill="{t['text']}" letter-spacing="-0.5">Hi, I'm Yuki</text>
-  <text x="56" y="234" font-family="{SANS}" font-size="28" font-weight="500" fill="{t['accent_a']}">a.k.a. Yukine</text>
-  <text x="56" y="290" font-family="{SANS}" font-size="19" font-weight="500" fill="{t['text']}">Final-year Computer Engineering student</text>
-  <text x="56" y="320" font-family="{SANS}" font-size="18" fill="{t['muted']}">AI and computer vision</text>
-  <text x="56" y="380" font-family="{MONO}" font-size="15" fill="{t['accent_a']}">&gt;</text>{typing('building ArangCada', 74, 380, 15, t['muted'], 0.6, 2.6, 8, 'type', t['accent_b'])}
+  <text x="54" y="140" font-family="{SANS}" font-size="58" font-weight="600" fill="{t['text']}" letter-spacing="-0.5">Hi, I'm Yuki</text>
+  <text x="56" y="182" font-family="{SANS}" font-size="28" font-weight="500" fill="{t['accent_a']}">a.k.a. Yukine</text>
+  <text x="56" y="232" font-family="{SANS}" font-size="19" font-weight="500" fill="{t['text']}">Final-year Computer Engineering student</text>
+  <text x="56" y="260" font-family="{SANS}" font-size="18" fill="{t['muted']}">AI and computer vision</text>
+  <text x="56" y="304" font-family="{MONO}" font-size="15" fill="{t['accent_a']}">&gt;</text>{typing('building ArangCada', 74, 304, 15, t['muted'], 0.6, 2.6, 8, 'type', t['accent_b'])}
 </svg>
 """
 
