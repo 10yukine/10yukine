@@ -1,23 +1,14 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img alt="Hi, I'm Yuki, a.k.a. Yukine. Final-year Computer Engineering Student, AI and Computer Vision Enthusiast. A dotted cat watches the text from inside a detection box." src="assets/hero-dark.svg" width="100%">
+  <img alt="Hi, I'm Yuki, a.k.a. Yukine. Final-year Computer Engineering student working on AI and computer vision. A dotted cat watches the text from inside a detection box." src="assets/hero-dark.svg" width="100%">
 </picture>
 
 ## About Me
 
-I'm **Yuki**, also known as **Yukine**, a final-year Computer Engineering student who likes teaching computers to make sense of what they see.
+I'm **Yuki**, or **Yukine**, a final-year Computer Engineering student working on AI and computer vision.
 
-Right now I'm building **[ArangCada](https://github.com/10yukine/ArangCada)**, a tricycle booking and dispatch app for Calamba City, Philippines.
-
-```python
-class Yukine:
-    name      = "Yuki"
-    role      = "Final-year Computer Engineering Student"
-    into      = ["Artificial Intelligence", "Computer Vision"]
-    building  = "ArangCada"
-    exploring = "practical applications of machine learning"
-```
+I'm building **[ArangCada](https://github.com/10yukine/ArangCada)**, a tricycle booking and dispatch app for Calamba City, Philippines.
 
 ## Tech Stack
 
@@ -32,7 +23,7 @@ class Yukine:
   <img alt="Model Context Protocol" src="https://img.shields.io/badge/MCP-1A1A1A?style=for-the-badge&logo=modelcontextprotocol&logoColor=white">
 </p>
 
-**Built with on [ArangCada](https://github.com/10yukine/ArangCada)**
+**Used in [ArangCada](https://github.com/10yukine/ArangCada)**
 
 <p>
   <img alt="Flutter" src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white">
@@ -77,7 +68,7 @@ class Yukine:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg">
-  <img alt="Thanks for stopping by! A small dotted cat surrounded by twinkling sparkles." src="assets/footer-dark.svg" width="100%">
+  <img alt="Thanks for stopping by. A small dotted cat surrounded by twinkling sparkles." src="assets/footer-dark.svg" width="100%">
 </picture>
 
 <!-- The banners are generated from the braille art in assets/art: python3 scripts/build_svgs.py -->
