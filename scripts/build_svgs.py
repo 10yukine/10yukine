@@ -25,13 +25,13 @@ THEMES = {
         card="#0d1117", card2="#161b22", border="#30363d", grid="#21262d",
         text="#e6edf3", muted="#8b949e", faint="#6e7681",
         cat_a="#a5e8ff", cat_b="#2563eb", accent_a="#7dd3fc", accent_b="#3b82f6",
-        box="#5eead4", box_text="#04201c", pill="#1c2230", pill_text="#c9d1d9",
+        box="#5eead4", box_text="#04201c",
     ),
     "light": dict(
         card="#ffffff", card2="#f6f8fa", border="#d0d7de", grid="#eaeef2",
         text="#1f2328", muted="#59636e", faint="#818b98",
         cat_a="#38bdf8", cat_b="#1e3a8a", accent_a="#0284c7", accent_b="#1d4ed8",
-        box="#0d9488", box_text="#ffffff", pill="#f0f2f5", pill_text="#31363d",
+        box="#0d9488", box_text="#ffffff",
     ),
 }
 
@@ -201,20 +201,10 @@ def hero(theme):
     label = "cat 0.98"
     lw = len(label) * 7.8 + 16
 
-    pills = ["Python", "OpenCV", "PyTorch", "TensorFlow"]
-    px_x = 56
-    pill_svg = []
-    for name in pills:
-        w = len(name) * 8.4 + 26
-        pill_svg.append(
-            f'<rect x="{px_x:g}" y="332" width="{w:g}" height="30" rx="15" fill="{t["pill"]}" stroke="{t["border"]}"/>'
-            f'<text x="{px_x + w / 2:g}" y="352" text-anchor="middle" font-family="{MONO}" font-size="14" fill="{t["pill_text"]}">{name}</text>'
-        )
-        px_x += w + 10
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="title desc">
   <title id="title">Hi, I'm Yuki / Yukine</title>
-  <desc id="desc">Final-year Computer Engineering student, AI and computer vision enthusiast. A dotted cat on the right watches the text.</desc>
+  <desc id="desc">Final-year Computer Engineering student working on AI and computer vision. A dotted cat on the right watches the text.</desc>
   <defs>
     <linearGradient id="catgrad" x1="{ox}" y1="{oy}" x2="{ox + gw * cell}" y2="{oy + gh * cell}" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="{t['cat_a']}"/>
@@ -229,16 +219,12 @@ def hero(theme):
       <stop offset="0" stop-color="{t['box']}" stop-opacity="0"/>
       <stop offset="1" stop-color="{t['box']}" stop-opacity="0.28"/>
     </linearGradient>
-    <pattern id="bgdots" width="22" height="22" patternUnits="userSpaceOnUse">
-      <circle cx="11" cy="11" r="1" fill="{t['grid']}"/>
-    </pattern>
     <clipPath id="card"><rect width="{W}" height="{H}" rx="18"/></clipPath>
     <clipPath id="boxclip"><rect x="{bx}" y="{by}" width="{bw}" height="{bh}"/></clipPath>
   </defs>
 
   <g clip-path="url(#card)">
     <rect width="{W}" height="{H}" fill="{t['card']}"/>
-    <rect width="{W}" height="{H}" fill="url(#bgdots)"/>
   </g>
   <rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="18" fill="none" stroke="{t['border']}"/>
 
@@ -261,13 +247,11 @@ def hero(theme):
   </g>
 
   <!-- text -->
-  <text x="56" y="104" font-family="{MONO}" font-size="15" fill="{t['faint']}">~/yukine <tspan fill="{t['accent_a']}">$</tspan> whoami</text>
-  <text x="54" y="178" font-family="{SANS}" font-size="58" font-weight="600" fill="{t['text']}" letter-spacing="-0.5">Hi, I'm Yuki</text>
-  <text x="56" y="222" font-family="{SANS}" font-size="28" font-weight="500" fill="{t['accent_a']}">a.k.a. Yukine</text>
-  <text x="56" y="270" font-family="{SANS}" font-size="19" font-weight="500" fill="{t['text']}">Final-year Computer Engineering Student</text>
-  <text x="56" y="300" font-family="{SANS}" font-size="18" fill="{t['muted']}">AI &amp; Computer Vision Enthusiast</text>
-  {''.join(pill_svg)}
-  <text x="56" y="420" font-family="{MONO}" font-size="15" fill="{t['accent_a']}">&gt;</text>{typing('currently building ArangCada', 74, 420, 15, t['muted'], 0.6, 2.6, 8, 'type', t['accent_b'])}
+  <text x="54" y="190" font-family="{SANS}" font-size="58" font-weight="600" fill="{t['text']}" letter-spacing="-0.5">Hi, I'm Yuki</text>
+  <text x="56" y="234" font-family="{SANS}" font-size="28" font-weight="500" fill="{t['accent_a']}">a.k.a. Yukine</text>
+  <text x="56" y="290" font-family="{SANS}" font-size="19" font-weight="500" fill="{t['text']}">Final-year Computer Engineering student</text>
+  <text x="56" y="320" font-family="{SANS}" font-size="18" fill="{t['muted']}">AI and computer vision</text>
+  <text x="56" y="380" font-family="{MONO}" font-size="15" fill="{t['accent_a']}">&gt;</text>{typing('building ArangCada', 74, 380, 15, t['muted'], 0.6, 2.6, 8, 'type', t['accent_b'])}
 </svg>
 """
 
@@ -293,28 +277,23 @@ def footer(theme):
 
     tx = ox + gw * cell + 40
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="title">
-  <title id="title">Thanks for stopping by!</title>
+  <title id="title">Thanks for stopping by</title>
   <defs>
     <linearGradient id="catgrad" x1="{ox}" y1="{oy}" x2="{ox + gw * cell}" y2="{oy + gh * cell}" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="{t['cat_a']}"/>
       <stop offset="1" stop-color="{t['cat_b']}"/>
     </linearGradient>
-    <pattern id="bgdots" width="22" height="22" patternUnits="userSpaceOnUse">
-      <circle cx="11" cy="11" r="1" fill="{t['grid']}"/>
-    </pattern>
     <clipPath id="card"><rect width="{W}" height="{H}" rx="18"/></clipPath>
   </defs>
   <g clip-path="url(#card)">
     <rect width="{W}" height="{H}" fill="{t['card']}"/>
-    <rect width="{W}" height="{H}" fill="url(#bgdots)"/>
   </g>
   <rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="18" fill="none" stroke="{t['border']}"/>
   <g>
     <animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="3.2s" repeatCount="indefinite"/>{dotted('kitty', body, ox, oy, cell, 'url(#catgrad)')}
   </g>{''.join(twinkle)}
-  <text x="{tx}" y="100" font-family="{SANS}" font-size="30" font-weight="600" fill="{t['text']}">Thanks for stopping by!</text>
-  <text x="{tx}" y="134" font-family="{SANS}" font-size="17" fill="{t['muted']}">Teaching machines to see, one frame at a time.</text>
-  <text x="{tx}" y="166" font-family="{MONO}" font-size="14" fill="{t['accent_a']}">— yuki</text>
+  <text x="{tx}" y="114" font-family="{SANS}" font-size="30" font-weight="600" fill="{t['text']}">Thanks for stopping by</text>
+  <text x="{tx}" y="146" font-family="{MONO}" font-size="15" fill="{t['accent_a']}">yuki</text>
 </svg>
 """
 

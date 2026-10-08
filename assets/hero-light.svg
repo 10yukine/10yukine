@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="920" height="480" viewBox="0 0 920 480" role="img" aria-labelledby="title desc">
   <title id="title">Hi, I'm Yuki / Yukine</title>
-  <desc id="desc">Final-year Computer Engineering student, AI and computer vision enthusiast. A dotted cat on the right watches the text.</desc>
+  <desc id="desc">Final-year Computer Engineering student working on AI and computer vision. A dotted cat on the right watches the text.</desc>
   <defs>
     <linearGradient id="catgrad" x1="592" y1="56" x2="880" y2="456" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#38bdf8"/>
@@ -15,16 +15,12 @@
       <stop offset="0" stop-color="#0d9488" stop-opacity="0"/>
       <stop offset="1" stop-color="#0d9488" stop-opacity="0.28"/>
     </linearGradient>
-    <pattern id="bgdots" width="22" height="22" patternUnits="userSpaceOnUse">
-      <circle cx="11" cy="11" r="1" fill="#eaeef2"/>
-    </pattern>
     <clipPath id="card"><rect width="920" height="480" rx="18"/></clipPath>
     <clipPath id="boxclip"><rect x="586" y="54" width="298" height="264"/></clipPath>
   </defs>
 
   <g clip-path="url(#card)">
     <rect width="920" height="480" fill="#ffffff"/>
-    <rect width="920" height="480" fill="url(#bgdots)"/>
   </g>
   <rect x="0.5" y="0.5" width="919" height="479" rx="18" fill="none" stroke="#d0d7de"/>
 
@@ -98,25 +94,23 @@
   </g>
 
   <!-- text -->
-  <text x="56" y="104" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#818b98">~/yukine <tspan fill="#0284c7">$</tspan> whoami</text>
-  <text x="54" y="178" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="600" fill="#1f2328" letter-spacing="-0.5">Hi, I'm Yuki</text>
-  <text x="56" y="222" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="500" fill="#0284c7">a.k.a. Yukine</text>
-  <text x="56" y="270" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="500" fill="#1f2328">Final-year Computer Engineering Student</text>
-  <text x="56" y="300" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#59636e">AI &amp; Computer Vision Enthusiast</text>
-  <rect x="56" y="332" width="76.4" height="30" rx="15" fill="#f0f2f5" stroke="#d0d7de"/><text x="94.2" y="352" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#31363d">Python</text><rect x="142.4" y="332" width="76.4" height="30" rx="15" fill="#f0f2f5" stroke="#d0d7de"/><text x="180.6" y="352" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#31363d">OpenCV</text><rect x="228.8" y="332" width="84.8" height="30" rx="15" fill="#f0f2f5" stroke="#d0d7de"/><text x="271.2" y="352" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#31363d">PyTorch</text><rect x="323.6" y="332" width="110" height="30" rx="15" fill="#f0f2f5" stroke="#d0d7de"/><text x="378.6" y="352" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#31363d">TensorFlow</text>
-  <text x="56" y="420" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#0284c7">&gt;</text>
+  <text x="54" y="190" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="600" fill="#1f2328" letter-spacing="-0.5">Hi, I'm Yuki</text>
+  <text x="56" y="234" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="500" fill="#0284c7">a.k.a. Yukine</text>
+  <text x="56" y="290" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="500" fill="#1f2328">Final-year Computer Engineering student</text>
+  <text x="56" y="320" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#59636e">AI and computer vision</text>
+  <text x="56" y="380" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#0284c7">&gt;</text>
   <defs>
     <clipPath id="type-clip">
-      <rect x="74" y="405" height="22.5" width="0">
-        <animate attributeName="width" values="0;9;18;27;36;45;54;63;72;81;90;99;108;117;126;135;144;153;162;171;180;189;198;207;216;225;234;243;252;252;0" keyTimes="0.0;0.0116;0.0232;0.0348;0.0464;0.058;0.0696;0.0813;0.0929;0.1045;0.1161;0.1277;0.1393;0.1509;0.1625;0.1741;0.1857;0.1973;0.2089;0.2205;0.2321;0.2437;0.2554;0.267;0.2786;0.2902;0.3018;0.3134;0.325;0.92;1" dur="8s" begin="0.6s" repeatCount="indefinite" calcMode="discrete"/>
+      <rect x="74" y="365" height="22.5" width="0">
+        <animate attributeName="width" values="0;9;18;27;36;45;54;63;72;81;90;99;108;117;126;135;144;153;162;162;0" keyTimes="0.0;0.0181;0.0361;0.0542;0.0722;0.0903;0.1083;0.1264;0.1444;0.1625;0.1806;0.1986;0.2167;0.2347;0.2528;0.2708;0.2889;0.3069;0.325;0.92;1" dur="8s" begin="0.6s" repeatCount="indefinite" calcMode="discrete"/>
       </rect>
     </clipPath>
   </defs>
   <g clip-path="url(#type-clip)">
-    <text x="74" y="420" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#59636e" textLength="252" lengthAdjust="spacingAndGlyphs" xml:space="preserve">currently building ArangCada</text>
+    <text x="74" y="380" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#59636e" textLength="162" lengthAdjust="spacingAndGlyphs" xml:space="preserve">building ArangCada</text>
   </g>
-  <rect x="74" y="407.7" width="8.25" height="15.75" fill="#1d4ed8" rx="1">
-    <animate attributeName="x" values="74;83;92;101;110;119;128;137;146;155;164;173;182;191;200;209;218;227;236;245;254;263;272;281;290;299;308;317;326;326;74" keyTimes="0.0;0.0116;0.0232;0.0348;0.0464;0.058;0.0696;0.0813;0.0929;0.1045;0.1161;0.1277;0.1393;0.1509;0.1625;0.1741;0.1857;0.1973;0.2089;0.2205;0.2321;0.2437;0.2554;0.267;0.2786;0.2902;0.3018;0.3134;0.325;0.92;1" dur="8s" begin="0.6s" repeatCount="indefinite" calcMode="discrete"/>
+  <rect x="74" y="367.7" width="8.25" height="15.75" fill="#1d4ed8" rx="1">
+    <animate attributeName="x" values="74;83;92;101;110;119;128;137;146;155;164;173;182;191;200;209;218;227;236;236;74" keyTimes="0.0;0.0181;0.0361;0.0542;0.0722;0.0903;0.1083;0.1264;0.1444;0.1625;0.1806;0.1986;0.2167;0.2347;0.2528;0.2708;0.2889;0.3069;0.325;0.92;1" dur="8s" begin="0.6s" repeatCount="indefinite" calcMode="discrete"/>
     <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
   </rect>
 </svg>
