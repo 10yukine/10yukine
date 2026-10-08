@@ -94,22 +94,22 @@
   </g>
 
   <!-- text -->
-  <text x="54" y="140" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="600" fill="#e6edf3" letter-spacing="-0.5">Hi, I'm Yuki</text>
-  <text x="56" y="182" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="500" fill="#7dd3fc">a.k.a. Yukine</text>
-  <text x="56" y="232" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="500" fill="#e6edf3">Final-year Computer Engineering student</text>
-  <text x="56" y="260" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#8b949e">AI and computer vision</text>
-  <text x="56" y="304" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#7dd3fc">&gt;</text>
+  <text x="54" y="110" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="600" fill="#e6edf3" letter-spacing="-0.5">Hi, I'm Yuki</text>
+  <text x="56" y="152" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="500" fill="#7dd3fc">a.k.a. Yukine</text>
+  <text x="56" y="202" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="500" fill="#e6edf3">Final-year Computer Engineering student</text>
+  <text x="56" y="230" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#8b949e">AI and computer vision</text>
+  <text x="56" y="274" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#7dd3fc">&gt;</text>
   <defs>
     <clipPath id="type-clip">
-      <rect x="74" y="289" height="22.5" width="0">
+      <rect x="74" y="259" height="22.5" width="0">
         <animate attributeName="width" values="0;9;18;27;36;45;54;63;72;81;90;99;108;117;126;135;144;153;162;162;0" keyTimes="0.0;0.0181;0.0361;0.0542;0.0722;0.0903;0.1083;0.1264;0.1444;0.1625;0.1806;0.1986;0.2167;0.2347;0.2528;0.2708;0.2889;0.3069;0.325;0.92;1" dur="8s" begin="0.6s" repeatCount="indefinite" calcMode="discrete"/>
       </rect>
     </clipPath>
   </defs>
   <g clip-path="url(#type-clip)">
-    <text x="74" y="304" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#8b949e" textLength="162" lengthAdjust="spacingAndGlyphs" xml:space="preserve">building ArangCada</text>
+    <text x="74" y="274" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#8b949e" textLength="162" lengthAdjust="spacingAndGlyphs" xml:space="preserve">building ArangCada</text>
   </g>
-  <rect x="74" y="291.7" width="8.25" height="15.75" fill="#3b82f6" rx="1">
+  <rect x="74" y="261.7" width="8.25" height="15.75" fill="#3b82f6" rx="1">
     <animate attributeName="x" values="74;83;92;101;110;119;128;137;146;155;164;173;182;191;200;209;218;227;236;236;74" keyTimes="0.0;0.0181;0.0361;0.0542;0.0722;0.0903;0.1083;0.1264;0.1444;0.1625;0.1806;0.1986;0.2167;0.2347;0.2528;0.2708;0.2889;0.3069;0.325;0.92;1" dur="8s" begin="0.6s" repeatCount="indefinite" calcMode="discrete"/>
     <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
   </rect>

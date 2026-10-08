@@ -247,11 +247,11 @@ def hero(theme):
   </g>
 
   <!-- text -->
-  <text x="54" y="140" font-family="{SANS}" font-size="58" font-weight="600" fill="{t['text']}" letter-spacing="-0.5">Hi, I'm Yuki</text>
-  <text x="56" y="182" font-family="{SANS}" font-size="28" font-weight="500" fill="{t['accent_a']}">a.k.a. Yukine</text>
-  <text x="56" y="232" font-family="{SANS}" font-size="19" font-weight="500" fill="{t['text']}">Final-year Computer Engineering student</text>
-  <text x="56" y="260" font-family="{SANS}" font-size="18" fill="{t['muted']}">AI and computer vision</text>
-  <text x="56" y="304" font-family="{MONO}" font-size="15" fill="{t['accent_a']}">&gt;</text>{typing('building ArangCada', 74, 304, 15, t['muted'], 0.6, 2.6, 8, 'type', t['accent_b'])}
+  <text x="54" y="110" font-family="{SANS}" font-size="58" font-weight="600" fill="{t['text']}" letter-spacing="-0.5">Hi, I'm Yuki</text>
+  <text x="56" y="152" font-family="{SANS}" font-size="28" font-weight="500" fill="{t['accent_a']}">a.k.a. Yukine</text>
+  <text x="56" y="202" font-family="{SANS}" font-size="19" font-weight="500" fill="{t['text']}">Final-year Computer Engineering student</text>
+  <text x="56" y="230" font-family="{SANS}" font-size="18" fill="{t['muted']}">AI and computer vision</text>
+  <text x="56" y="274" font-family="{MONO}" font-size="15" fill="{t['accent_a']}">&gt;</text>{typing('building ArangCada', 74, 274, 15, t['muted'], 0.6, 2.6, 8, 'type', t['accent_b'])}
 </svg>
 """
 
