@@ -53,11 +53,14 @@ I'm building **[ArangCada](https://github.com/10yukine/ArangCada)**, a tricycle 
     </td>
     <td valign="top">
       <ul>
-        <li>Installing and Configuring Computer Systems</li>
-        <li>Introduction to Computer Systems Servicing</li>
-        <li>Maintaining Computer Systems and Networks</li>
-        <li>Setting Up Computer Networks</li>
-        <li>Setting Up Computer Servers</li>
+        <li>TESDA National Certificate II: Computer Systems Servicing (2026)
+          <ul>
+            <li>Install and configure computer systems</li>
+            <li>Set up computer networks</li>
+            <li>Set up computer servers</li>
+            <li>Maintain and repair computer systems and networks</li>
+          </ul>
+        </li>
       </ul>
     </td>
   </tr>
